@@ -23,7 +23,6 @@ class MainApp extends StatelessWidget {
             titleTextStyle: TextStyle(
                 fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
             backgroundColor: Color.fromARGB(255, 245, 242, 242)),
-        useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
           brightness: Brightness.light,
           seedColor: Colors.black,
