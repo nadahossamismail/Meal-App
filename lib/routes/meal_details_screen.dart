@@ -89,7 +89,7 @@ class _MealDetailsState extends ConsumerState<MealDetails> {
                         style: Theme.of(context)
                             .textTheme
                             .titleLarge!
-                            .copyWith(fontSize: 21));
+                            .copyWith(fontSize: 18));
                   }),
                 ],
               ),
@@ -114,7 +114,7 @@ class _MealDetailsState extends ConsumerState<MealDetails> {
                   "- $step",
                   textAlign: TextAlign.start,
                   style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                        fontSize: 21,
+                        fontSize: 18,
                       ),
                 ),
               );
