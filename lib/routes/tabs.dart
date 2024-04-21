@@ -29,6 +29,8 @@ class _TabsScreenState extends State<TabsScreen> {
       ),
       body: tabs[screenIndex],
       bottomNavigationBar: BottomNavigationBar(
+          selectedItemColor: Colors.white,
+          backgroundColor: const Color.fromARGB(255, 133, 128, 128),
           currentIndex: screenIndex,
           onTap: (index) {
             setState(() {
@@ -41,10 +43,15 @@ class _TabsScreenState extends State<TabsScreen> {
           items: const [
             BottomNavigationBarItem(
               label: "Categories",
-              icon: Icon(Icons.home),
+              icon: Icon(
+                Icons.home,
+              ),
             ),
             BottomNavigationBarItem(
-                label: "Favorites", icon: Icon(Icons.favorite)),
+                label: "Favorites",
+                icon: Icon(
+                  Icons.favorite,
+                )),
           ]),
     );
   }
